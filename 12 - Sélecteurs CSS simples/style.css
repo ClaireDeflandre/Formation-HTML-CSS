@@ -1,0 +1,49 @@
+body
+{
+	margin: 200px;
+	padding: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+div h2
+{
+	color:white;
+	padding-top: 10px;
+}
+div p
+{
+
+	color: white;
+	border:solid;
+	border-color: black;
+}
+
+#layout
+{
+	background-color: black;
+	text-align: center;
+	font-color: white;
+}
+
+.gauche
+{
+	text-align: left;
+
+}
+
+.droite
+{
+	text-align: right;
+
+}
+
+button
+{
+	background: blue;
+	color:white;
+	align-content: center;
+	margin: 10px;
+
+}
