@@ -1,0 +1,54 @@
+caption /*changer la taille du titre et afficher la première lettre de chaque mot en majuscule*/
+{
+	font-size: 1.5em;
+	text-transform: capitalize;
+}
+
+table /*enlever la bordure pour le tableau*/
+{
+	border:none;
+}
+
+th, dt /*ajouter une marge et centrer le texte des cellules th et td*/
+{
+	padding:10px;
+	text-align: center;
+}
+
+tr:first-child th:nth-child(2)
+{
+	font-size: 2em;
+	color: blue;
+}
+
+tbody tr:nth-child(odd)
+{
+	background-color: #F1654C;
+}
+
+tbody tr:nth-child(even)
+{
+
+	background-color: #FCB941;
+}
+
+tbody tr:first-child
+{
+
+
+}
+
+ tbody tr:last-child(odd)
+ {
+ 	background:#8870FF;
+
+ }
+
+tbody th:last-child [rowspan]
+{
+	border-right: none;
+	border-top: none;
+
+}
+
+
