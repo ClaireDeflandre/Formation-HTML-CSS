@@ -1,0 +1,57 @@
+
+body
+{
+	border: solid rgba(0,0,0,0.3);
+	border-radius: 10px;
+	padding: 10px;
+	margin: 100px;
+	line-height: 1.5;
+
+}
+
+article
+{
+
+
+}
+.titre-article
+{
+	font-family: helvetica;
+	border-bottom-style: dotted;
+	border-color: rgba(0,0,0,0.3);
+	margin-bottom: 40px;
+
+}
+
+
+
+article h2
+{
+
+}
+
+.detail-article
+{
+	text-align: center;
+	color: #7b7b7b;
+	font-size: 1em;
+}
+
+.detail-article p
+{
+	text-align: justify;
+
+}
+
+a
+{
+	width: 100px;
+	height: 30px;
+	display: inline-block;
+	background: violet;
+	border-radius: 200px/50px;
+	padding-top: 5px;
+
+
+
+}
