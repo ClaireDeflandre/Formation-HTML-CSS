@@ -1,0 +1,45 @@
+body
+{
+	display: inline-block;
+	border-right: solid grey;
+	border-bottom: solid grey;
+	display: center;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+
+
+.article
+{
+	color: black;
+	background: lightgrey;
+	padding: 100px;
+	height: 150px;
+	width: 150px;
+	
+
+
+}
+
+.details
+{
+	color:black;
+	background:#03a9f4;
+	width: 250px;
+	height: 90px;
+	
+
+}
+
+.fix
+{
+	position: absolute;
+	top: 340px;
+	left:390px;
+	color: white;
+	background: blue;
+	float: right;
+	margin-top:50px;
+	width: 70px
+
+}
