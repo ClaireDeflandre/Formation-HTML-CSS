@@ -1,0 +1,73 @@
+input
+{
+	display: none;
+
+}
+
+label
+{
+	position: relative;
+	display: inline-block;
+	color:white;
+	font-size: 20px;
+	border-radius:45px;
+	height: 40px;
+	width: 90px;
+	background-color: red;
+	transition: 0.5s;
+}
+
+.button
+{	
+	position: absolute;
+	
+	height: 40px;
+	width: 40px;
+	border-radius:20px;
+	background:white;
+	cursor: pointer;
+	transition: 0.5s;
+	left: 0px;
+	box-shadow:1px 1px #bdbdbd;
+}
+
+
+.oui
+{
+	opacity: 0;
+	position: absolute;
+	top:10px;
+	left: 5px;
+	transition: 0.5s;
+}
+
+.non
+{
+	opacity:1;
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	transition: 0.5s;
+}
+
+
+#check:checked + label .button
+{
+	left: 50px;
+}
+
+#check:checked+ label .oui
+{
+	opacity: 1;
+
+}
+
+#check:checked+ label .non
+{
+	opacity: 0;
+}
+
+#check:checked+ label
+{
+	background-color: green;
+}
